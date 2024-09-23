@@ -17,7 +17,7 @@ nav {
   background-color: #000;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 nav .logoHolder {
   height: 100%;
@@ -26,7 +26,7 @@ nav .logoHolder img {
   height: 100%;
 }
 nav .links {
-  width: 60%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: space-between;
