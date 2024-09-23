@@ -1,12 +1,32 @@
 nav {
-  height: 50px;
+  height: 10vh;
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
 
-nav a {
-  text-decoration: none;
-  color: #fff;
+  .logoHolder {
+    height: 100%;
+    img {
+        height: 100%;
+    }
+  }
+
+    .links {
+        width: 60%;
+        height: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            height: 100%;
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }
