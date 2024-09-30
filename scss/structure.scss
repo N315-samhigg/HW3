@@ -1,11 +1,54 @@
+@font-face {
+    font-family: "Industry Thin";
+    src: url("../assets/industryThin.ttf");
+}
+
+@font-face {
+    font-family: "Industry Thin Italic";
+    src: url("../assets/industryThinItalic.ttf");
+}
+
+@font-face {
+    font-family: "Industry";
+    src: url("../assets/industry.ttf");
+}
+
+@font-face {
+    font-family: "Industry Ultra";
+    src: url("../assets/industryUltra.ttf");
+}
+
+@font-face {
+    font-family: "Industry Ultra Italic";
+    src: url("../assets/industryUltraItalic.ttf");
+}
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ font-family: var(--text-font);
+ transition: all 0.25s ease-out;
 }
+
 html, body {
  height: 100%;
+ background-color: var(--white);
 }
+
+h1 {
+    margin-top: 12.5vh;
+}
+
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px;
+}
+
+:root {
+    --black: #111;
+    --white: #eee;
+    --blue: #07b;
+
+    --display-font: "Industry Ultra Italic", "Industry Ultra", "Industry", sans-serif;
+    --text-font: "Industry", "Industry Ultra", "Industry Thin", sans-serif;
 }

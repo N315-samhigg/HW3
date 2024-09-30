@@ -1,32 +1,50 @@
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+
   height: 10vh;
-  background-color: #000;
+  width: 100vw;
+  background-color: var(--white);
   display: flex;
   align-items: center;
   justify-content: space-around;
 
+  * {
+    color: var(--black);
+    font-family: var(--display-font);
+  }
+
   .logoHolder {
     height: 100%;
     img {
-        height: 100%;
+        height: 140%;
     }
   }
 
-    .links {
-        width: 40%;
-        height: 100%;
+  .links {
+    width: 40%;
+    height: 100%;
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-        a {
-            height: 100%;
-            text-decoration: none;
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    a {
+      min-width: 5vw;
+      height: 100%;
+      padding: 10px;
+
+      text-decoration: none;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
+
+    a:hover {
+      background-color: var(--blue);
+      color: var(--white);
+    }
+  }
 }

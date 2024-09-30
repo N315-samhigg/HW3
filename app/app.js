@@ -1,15 +1,9 @@
 //import Swal from "../node_modules/sweetalert2";
 
-import { changePage, checkSignIn } from "../model/model.js";
+import { changePage } from "../model/model.js";
 
 function initListeners() {
-    /* Swal.fire({
-        title: 'Not Signed In',
-        text: 'Do you want to sign in?',
-        icon: 'info',
-        confirmButtonText: 'Yes',
-        showCancelButton: true,
-      }) */
+
 }
 
 function route() {
@@ -26,6 +20,5 @@ function initSite() {
  
 $(document).ready(function () {
     //initListeners();
-    checkSignIn();
     initSite();
 });

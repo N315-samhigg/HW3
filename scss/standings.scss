@@ -1,0 +1,49 @@
+div.standings {
+    width: 80vw;
+    margin-left: 10vw;
+
+    div.drivers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.driver {
+        width: 300px;
+        margin: 25px;
+        height: fit-content;
+        background-color: var(--blue);
+
+        img.driverImg {
+            width: 300px;
+            height: 240px;
+            image-rendering: optimizeSpeed;
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        div.driverText {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            font-family: var(--display-font);
+            color: var(--white);
+            
+            h2 {
+                font-size: calc(2.5vw + 2.5vh);
+            }
+
+            div.driverName {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+
+                h3 {
+                    width: 180px;
+                    font-size: calc(1.5vh + 1.5vh);
+                    line-height: 0.6em;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.advSec {
+    width: 100vw;
+    height: 30vh;
+
+    background-image: url("../assets/power22Test.jpg");
+    background-position: left 70%;
+    background-size: cover;
+    color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    h2 {
+        font-size: calc(2vh + 2vw);
+        font-family: var(--display-font);
+    }
+    
+    a {
+        width: 20vw;
+        height: calc(2vh + 2vw);
+        border-radius: 15px;
+
+        font-size: calc(1vh + 1vw);
+        text-decoration: none;
+        color: var(--blue);
+        background-color: var(--white);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a:hover {
+        background-color: var(--blue);
+        color: var(--white);
+        font-size: calc(1.1vh + 1.1vw);
+        font-weight: bolder;
+        border-radius: 25px;
+    }
+}
